@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+nav .active {
+  border-bottom: 1px solid green;
+}
+
+
+
+li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #D14D72;
+}
